@@ -21,8 +21,14 @@
     "assetBundlePatterns": [
       "**/*"
     ],
+    "android": {
+      "package": "com.yokai.testing123"
+      },
     "ios": {
       "supportsTablet": true
-    }
+    },
+      "androidNavigationBar": {
+        "visible": "sticky-immersive"
+      }
   }
 }
